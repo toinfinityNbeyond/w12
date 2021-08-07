@@ -4,3 +4,8 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 </web-app>
+
+<!--
+web.xml  은 설정관리자
+	컨텍스트를 관리
+-->
