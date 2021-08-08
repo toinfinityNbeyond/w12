@@ -15,10 +15,10 @@ public enum StoreService {
     StoreService() {
         dtoList = new ArrayList<>();
 
-        this.add(StoreDTO.builder().name("북창동순두부").area("종각").desc("").build());
-        this.add(StoreDTO.builder().name("더비기닝").area("인천").desc("").build());
-        this.add(StoreDTO.builder().name("청수산").area("인천").desc("").build());
-        this.add(StoreDTO.builder().name("키오쿠").area("홍대").desc("").build());
+        this.add(StoreDTO.builder().name("북창동순두부").area("종각").desc("해물순두부").build());
+        this.add(StoreDTO.builder().name("더비기닝").area("인천").desc("야채카레").build());
+        this.add(StoreDTO.builder().name("청수산").area("인천").desc("대방어").build());
+        this.add(StoreDTO.builder().name("키오쿠").area("홍대").desc("연어사시미").build());
     }
 
     public void add(StoreDTO storeDTO) {
